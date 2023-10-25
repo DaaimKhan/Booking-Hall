@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Al-Wali Manzil Marriage Hall</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <style>
+    body{
+      background-color: #ADD8E6;
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      width: 100%;
+      position: fixed;
+      background-color: black;
+      color: white;
+    }
+
+    .navbar-nav {
+      /*margin-left: auto;*/
+      padding-right: 150px;
+    }
+
+    .nav-brand {
+      font-size: xx-large;
+    }
+
+    .nav-item a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold
+    }
+
+    .nav-item a:hover{
+      color: #ffc107;
+    }
+
+    .navbar-toggler{
+      border-color: white;
+    }
+
+    .navbar-toggler:hover {
+      background-color: #fff; /* Change the button color on hover if desired */
+  }
+
+    .container {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 30px;
+      
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    .Brand h1 p{
+      color: white;
+    }
+
+   
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 20px;
+    }
+
+    ul li::before {
+      content: '\2022';
+      color: #ffc107;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+    }
+
+    .carousel-inner{
+      max-width: 100%;
+      height: auto;
+      text-align: center;
+    }
+    .carousel-inner img{
+      max-width: 100%;
+      height: auto;
+    }
+    
+    
+
+    #name{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 50px;
+    }
+    #name img{
+      height: 200px;
+      width: 205px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    #name h2{
+      padding: 20px;
+    }
+
+    #adres{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #ADD8E6;
+      border-radius: 10px;
+      height: auto;
+      width: 50%;
+      color: black;
+      align-items: center;
+      text-align: left;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+
+    
+
+    #contact{
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 30px;
+      margin-top: 30px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      align-items: center;
+    }
+
+    #adres h3 p p{
+      padding: 100px;
+    }
+
+    footer{
+    
+    background-color: rgb(27, 26, 26);
+    margin-top: 10px;
+    padding: 1px;
+    }
+    footer p{
+      color: white;
+      padding: 20px;
+    }
+    
+    
+
+
+  </style>
+</head>
+
+<body>
+  <!-- ---------------------------------Navbar------------------------------------------------------ -->
+  
+  <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <div class="container-fluid justify-content-between align-items-center">
+      <div class="nav-brand" href="#home">Al-Wali Manzil</div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active"><a class="nav-item" href="#carouselExampleCaptions">Home</a></li>
+          <li class="nav-item"><a class="nav-item" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-item" href="booking.html">Booking</a></li>
+          <li class="nav-item"><a class="nav-item" href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ---------------------------------Image Slide---------------------------------------------------- -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img1.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block Brand">
+          <h1>Al-Wali Manzil</h1>
+          <p>
+          <h3>Marriage Hall</h3>
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block Brand">
+          <h1>Front Side</h1>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block Brand">
+          <h1>Full View</h1>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- ---------------------------------------------Slide End--------------------------------------------------------------  -->
+
+<!-- ------------------------------------------About Section Starts------------------------------------------------------ -->
+
+<div id="about">
+<div class="container mt-5">
+  <div class="row">
+    <div class="col">
+      <section class="details">
+        <h2>The Founder : Haji Ajmal Khan</h2>
+        <p>Haji Ajmal embarked on a remarkable journey in 2014, starting on the auspicious day of 26th January. Despite the challenges of a demanding private duty, he dedicated himself to building the Al-Wali Marriage Hall. His determination and hard work paid off, and the hall was completed in 2017.</p>
+        <p>His passion and commitment go beyond construction. He has always believed in giving back to the community. The Al-Wali Marriage Hall is a testament to this belief, as it offers top-notch marriage and event arrangements at incredibly affordable prices.</p>
+        <p>His journey is an inspiration. Not only did he build a magnificent hall, but he also reached out to help the less fortunate. Al-Wali Marriage Hall is a place where dreams come true for those who could only dream of affording a beautiful venue for their special occasions.</p>
+    </section>
+    </div>
+      <div class="col-lg-12">
+          <h1 class="mb-4">About Al-Wali Manzil Marriage Hall</h1>
+          <p class="lead">Welcome to Al-Wali Manzil Marriage Hall, where we create unforgettable moments and lasting memories. We take pride in providing a beautiful and welcoming venue for your special occasions.</p>
+          <p>Our mission is to ensure that your wedding day or special event is a reflection of your unique style and a day to remember for a lifetime.</p>
+      </div>
+      <div class="col-lg-6">
+          <h2 class="mb-3">Our Facilities</h2>
+          <ul>
+              <li>Spacious Banquet Halls</li>
+              <li>Beautiful Outdoor Spaces</li>
+              <li>Customized Catering Services</li>
+              <li>Exquisite Decor and Floral Arrangements</li>
+              <li>Professional and Experienced Staff</li>
+              <li>Customizable Packages to Suit Your Needs</li>
+          </ul>
+      </div>
+      <div class=" col-lg-6">
+        <h2>Services Offered</h2>
+        <ul>
+            <li>Wedding Ceremonies</li>
+            <li>Reception Parties</li>
+            <li>Engagement Functions</li>
+            <li>Mehndi Events</li>
+            <li>Nikah Ceremonies</li>
+            <li>Corporate Events</li>
+            <li>Birthday Parties</li>
+            <li>Anniversaries</li>
+            <li>And More...</li>
+        </ul>
+    </div>
+  </div>
+</div>
+</div>
+<!-- --------------------------------Contact------------------------------------------- -->
+
+  <div class="container" id="contact">
+    <div class="row">
+      <div class="col-6" id="name">
+        <img src="pic.JPG" alt="pic">
+        <h2>Haji Ajmal Khan</h2>
+      </div>
+
+      <div class="col-lg-6" id="adres">
+        <div>
+          <h3>Contact Us</h3>
+          <p>Phone: +91 8126984786</p>
+          <p>Email: alwalimanzil@gmail.com</p>
+          <address>Alli Khan, Mangal Mali Bag, Kashipur, Uttarakhand - 244713</address>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+<!-- -----------------------------------------------Footer--------------------------------------- -->
+
+  <footer>
+    <div class="text-center">
+        <p>&copy; 2023 Haji Ajmal Khan. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
